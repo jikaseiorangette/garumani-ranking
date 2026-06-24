@@ -38,6 +38,12 @@ def fetch_ranking(page):
                 raise
     time.sleep(8)
 
+    # ページをスクロールして遅延読み込み画像を取得
+    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+    time.sleep(2)
+    page.evaluate("window.scrollTo(0, 0)")
+    time.sleep(1)
+
     soup = BeautifulSoup(page.content(), "html.parser")
     works = []
 
@@ -94,13 +100,10 @@ def fetch_ranking(page):
         if price_el:
             price = price_el.get_text(strip=True)
 
-        # サムネイル
+        # サムネイル（product_idから直接生成）
         thumb_url = ""
-        img_el = row.select_one("img[src*='img_sam']") or row.select_one("img[src*='thumbnail']")
-        if img_el:
-            thumb_url = img_el.get("src", "") or img_el.get("data-src", "")
-            if thumb_url and not thumb_url.startswith("http"):
-                thumb_url = "https:" + thumb_url
+        pid_folder = product_id[:-3] + "000"
+        thumb_url = f"https://img.dlsite.jp/resize/images2/work/books/{pid_folder}/{product_id}_img_main_240x240.jpg"
 
         # ジャンル
         genre_els = row.select("a[href*='/genre/']")
