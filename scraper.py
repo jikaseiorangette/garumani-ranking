@@ -389,6 +389,7 @@ tbody tr:hover td{background:transparent}
 <div class="stat-sub">本日ランキング内</div>
 </div>
 </div>
+$pickup_section
 <div class="section">
 <div class="section-head">
 <span style="font-size:16px">🏆</span>
@@ -493,6 +494,52 @@ document.querySelectorAll('canvas[data-pid]').forEach(c => drawChart(c.id, c.dat
 </html>
 """
 
+def make_pickup_section(pickup, title, badge):
+    if not pickup:
+        return ""
+    rows = []
+    for i, w in enumerate(pickup):
+        pid = w["product_id"]
+        num = int(pid[2:])
+        folder_num = math.ceil(num / 1000) * 1000
+        folder = f"BJ{folder_num}" if len(str(num)) <= 6 else f"BJ{folder_num:08d}"
+        thumb = w.get("thumb_url") or f"https://img.dlsite.jp/resize/images2/work/books/{folder}/{pid}_img_main_240x240.jpg"
+        r = w["rank"]
+        cls = "r1" if r == 1 else "r2" if r == 2 else "r3" if r == 3 else "rn"
+        rb = f'<span class="rb {cls}">{r}</span>'
+        release = w.get("release_date", "")
+        circle = w.get("circle", "")
+        genres = w.get("genres", [])
+        gtags = "".join(f'<span class="gtag">{g}</span>' for g in genres[:4])
+        rows.append(f"""<tr>
+  <td class="thumb-wrap">
+    <span class="thumb-rank">{rb}</span>
+    <a href="https://www.dlsite.com/girls-drama/work/=/product_id/{pid}.html" target="_blank" rel="noopener"><img src="{thumb}" alt="" loading="lazy"></a>
+  </td>
+  <td class="title-cell">
+    <div class="work-title"><a href="https://www.dlsite.com/girls-drama/work/=/product_id/{pid}.html" target="_blank" rel="noopener">{w['title']}</a> <span class="section-badge-new">{badge}</span></div>
+    <div class="work-meta"><span>発売日: {release}　</span>{circle}</div>
+    <div class="genres">{gtags}</div>
+  </td>
+  <td style="font-size:11px;color:var(--text-sub)">{w.get('cv','')}</td>
+</tr>""")
+    return f"""<div class="section">
+<div class="section-head">
+<span style="font-size:16px">✨</span>
+<span class="section-title">{title}</span>
+</div>
+<div class="table-card">
+<table>
+<colgroup><col style="width:150px"><col style="width:auto"><col style="width:10%"></colgroup>
+<thead><tr><th></th><th>タイトル / 発売日 / サークル / ジャンル</th><th>声優</th></tr></thead>
+<tbody>
+{"".join(rows)}
+</tbody>
+</table>
+</div>
+</div>"""
+
+
 def rank_badge(rank):
     cls = {1: "r1", 2: "r2", 3: "r3"}.get(rank, "rn")
     return f'<span class="rb {cls}">{rank}</span>'
@@ -572,6 +619,18 @@ def generate_html(works, graph_data, today_str, total_works, new_today, work_met
 
     exclusive_count = sum(1 for w in top10 if w.get("is_exclusive"))
 
+    import random
+    new_works = [w for w in works if work_meta.get(w["product_id"], {}).get("release_date") == today]
+    if new_works:
+        pickup = random.sample(new_works, min(2, len(new_works)))
+        pickup_title = "✨ 新着ピックアップ"
+        pickup_badge = "本日発売"
+    else:
+        pickup = [w for w in works if w.get("is_exclusive")][:2]
+        pickup_title = "🔖 がるまに独占 注目作品"
+        pickup_badge = "独占配信"
+    pickup_section = make_pickup_section(pickup, pickup_title, pickup_badge)
+
     from string import Template
     html = Template(HTML_TEMPLATE).safe_substitute(
         today_str=today_str,
@@ -580,6 +639,7 @@ def generate_html(works, graph_data, today_str, total_works, new_today, work_met
         exclusive_count=exclusive_count,
         ranking_rows="\n".join(ranking_rows),
         graph_data_json=json.dumps(graph_data, ensure_ascii=False),
+        pickup_section=pickup_section,
     )
     return html
 
