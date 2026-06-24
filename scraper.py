@@ -177,9 +177,6 @@ def fetch_new_works(page, work_meta, today):
             work_meta[pid]["registered_date"] = today
             updated += 1
 
-        if "release_date" not in work_meta[pid]:
-            work_meta[pid]["release_date"] = today
-
         if title:
             work_meta[pid]["title"] = title
 
@@ -623,6 +620,15 @@ def run():
     if not works:
         print("取得データなし・終了")
         return
+
+    # ランキングページの発売日をwork_metaに書き込む（実際の発売日を優先）
+    for w in works:
+        pid = w["product_id"]
+        if pid not in work_meta:
+            work_meta[pid] = {}
+        if w.get("release_date") and "release_date" not in work_meta[pid]:
+            work_meta[pid]["release_date"] = w["release_date"]
+    save_work_meta(work_meta)
 
     # work_metaから発売日を付与
     for w in works:
