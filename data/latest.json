@@ -175,7 +175,7 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01132034.html"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "product_id": "BJ02195144",
     "title": "『月の檻に囚われて～執着と愛欲の檻に捕らわれる～』 [宵闇の箱庭]",
     "circle": "宵闇の箱庭",
@@ -211,6 +211,23 @@
   },
   {
     "rank": 13,
+    "product_id": "BJ02498674",
+    "title": "【特典ミニドラマ付】それはささやかな恋のはじまり 綿矢翔真（cv彩和矢） [アプリコット]",
+    "circle": "アプリコット",
+    "cv": "彩和矢",
+    "release_date": "2026-06-12",
+    "price": "2,970円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02499000/BJ02498674_img_main_240x240.jpg",
+    "genres": [
+      "恋人同士",
+      "ラブラブ/あまあま"
+    ],
+    "is_sale": true,
+    "is_exclusive": false,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02498674.html"
+  },
+  {
+    "rank": 13,
     "product_id": "BJ02507697",
     "title": "〈共通特典付き〉【絶倫×耐久×ライバル同僚】Ｗｈｉｃｈ？《出演：冬ノ熊肉》 [Cranberry]",
     "circle": "Cranberry",
@@ -229,23 +246,6 @@
     "is_sale": true,
     "is_exclusive": false,
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02507697.html"
-  },
-  {
-    "rank": 14,
-    "product_id": "BJ02498674",
-    "title": "【特典ミニドラマ付】それはささやかな恋のはじまり 綿矢翔真（cv彩和矢） [アプリコット]",
-    "circle": "アプリコット",
-    "cv": "彩和矢",
-    "release_date": "2026-06-12",
-    "price": "2,970円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02499000/BJ02498674_img_main_240x240.jpg",
-    "genres": [
-      "恋人同士",
-      "ラブラブ/あまあま"
-    ],
-    "is_sale": true,
-    "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02498674.html"
   },
   {
     "rank": 15,
@@ -291,24 +291,6 @@
   },
   {
     "rank": 17,
-    "product_id": "BJ02616024",
-    "title": "今夜も眠らNight -BIRTHDAY NIGHT 2025- 木崎敦 [安眠朗読]",
-    "circle": "安眠朗読",
-    "cv": "坂田将吾",
-    "release_date": "2026-06-21",
-    "price": "880円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02617000/BJ02616024_img_main_240x240.jpg",
-    "genres": [
-      "純愛",
-      "日常/生活",
-      "ラブラブ/あまあま"
-    ],
-    "is_sale": true,
-    "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02616024.html"
-  },
-  {
-    "rank": 17,
     "product_id": "BJ248653",
     "title": "Gastronomie ～ご主人様とメイドの美食倶楽部～第参巻 大河原弓彦主催（CV：茶介） [ニノヤ]",
     "circle": "ニノヤ",
@@ -327,6 +309,24 @@
     "is_sale": true,
     "is_exclusive": false,
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ248653.html"
+  },
+  {
+    "rank": 18,
+    "product_id": "BJ02616024",
+    "title": "今夜も眠らNight -BIRTHDAY NIGHT 2025- 木崎敦 [安眠朗読]",
+    "circle": "安眠朗読",
+    "cv": "坂田将吾",
+    "release_date": "2026-06-21",
+    "price": "880円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02617000/BJ02616024_img_main_240x240.jpg",
+    "genres": [
+      "純愛",
+      "日常/生活",
+      "ラブラブ/あまあま"
+    ],
+    "is_sale": true,
+    "is_exclusive": false,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02616024.html"
   },
   {
     "rank": 19,
