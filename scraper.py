@@ -105,7 +105,7 @@ def fetch_ranking(page):
         thumb_url = ""
         num = int(product_id[2:])
         folder_num = math.ceil(num / 1000) * 1000
-        pid_folder = f"BJ{folder_num:08d}"
+        pid_folder = f"BJ{folder_num}"
         thumb_url = f"https://img.dlsite.jp/resize/images2/work/books/{pid_folder}/{product_id}_img_main_240x240.jpg"
 
         # ジャンル
@@ -512,7 +512,7 @@ def make_row(w, rank_change, is_new, canvas_id):
         pid = w['product_id']
         num = int(pid[2:])
         folder_num = math.ceil(num / 1000) * 1000
-        folder = f"BJ{folder_num:08d}"
+        folder = f"BJ{folder_num}"
         thumb = f"https://img.dlsite.jp/resize/images2/work/books/{folder}/{pid}_img_main_240x240.jpg"
     img_html = f'<img src="{thumb}" alt="" loading="lazy">'
     ch = change_html(rank_change, is_new)
