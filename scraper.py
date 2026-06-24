@@ -4,6 +4,7 @@
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import json
+import math
 import re
 import time
 from datetime import datetime, timedelta, timezone
@@ -102,7 +103,9 @@ def fetch_ranking(page):
 
         # サムネイル（product_idから直接生成）
         thumb_url = ""
-        pid_folder = product_id[:-3] + "000"
+        num = int(product_id[2:])
+        folder_num = math.ceil(num / 1000) * 1000
+        pid_folder = f"BJ{folder_num:08d}"
         thumb_url = f"https://img.dlsite.jp/resize/images2/work/books/{pid_folder}/{product_id}_img_main_240x240.jpg"
 
         # ジャンル
@@ -507,7 +510,9 @@ def make_row(w, rank_change, is_new, canvas_id):
     thumb = w.get("thumb_url", "")
     if not thumb:
         pid = w['product_id']
-        folder = pid[:-3] + "000"
+        num = int(pid[2:])
+        folder_num = math.ceil(num / 1000) * 1000
+        folder = f"BJ{folder_num:08d}"
         thumb = f"https://img.dlsite.jp/resize/images2/work/books/{folder}/{pid}_img_main_240x240.jpg"
     img_html = f'<img src="{thumb}" alt="" loading="lazy">'
     ch = change_html(rank_change, is_new)
