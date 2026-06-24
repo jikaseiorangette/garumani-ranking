@@ -503,7 +503,9 @@ def make_row(w, rank_change, is_new, canvas_id):
     rb = rank_badge(w["rank"])
     thumb = w.get("thumb_url", "")
     if not thumb:
-        thumb = f"https://img.dlsite.jp/modpub/images2/work/books/{w['product_id'][:7]}000/{w['product_id']}_img_sam.jpg"
+        pid = w['product_id']
+        folder = pid[:-3] + "000"
+        thumb = f"https://img.dlsite.jp/resize/images2/work/books/{folder}/{pid}_img_main_240x240.jpg"
     img_html = f'<img src="{thumb}" alt="" loading="lazy">'
     ch = change_html(rank_change, is_new)
 
