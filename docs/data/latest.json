@@ -43,6 +43,34 @@
   },
   {
     "rank": 3,
+    "product_id": "BJ01353758",
+    "title": "嘘とセフレと、恋愛事情2 〜青山壮輔の場合〜【特典音声付】 [カナリアレコード]",
+    "circle": "カナリアレコード",
+    "cv": "テトラポット登",
+    "release_date": "2024-05-24",
+    "price": "1,650円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01354000/BJ01353758_img_main_240x240.jpg",
+    "genres": [],
+    "is_sale": true,
+    "is_exclusive": true,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01353758.html"
+  },
+  {
+    "rank": 4,
+    "product_id": "BJ01626251",
+    "title": "嘘とセフレと、恋愛事情3 〜赤石雄虎の場合〜【特典音声付】 [カナリアレコード]",
+    "circle": "カナリアレコード",
+    "cv": "土門熱",
+    "release_date": "2024-12-27",
+    "price": "1,650円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01627000/BJ01626251_img_main_240x240.jpg",
+    "genres": [],
+    "is_sale": true,
+    "is_exclusive": true,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01626251.html"
+  },
+  {
+    "rank": 5,
     "product_id": "BJ02455128",
     "title": "【がるまに限定特典付】惑溺のアンドロマリウス ～Codename: Null～ [ステラワース]",
     "circle": "ステラワース",
@@ -59,34 +87,6 @@
     "is_sale": true,
     "is_exclusive": true,
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02455128.html"
-  },
-  {
-    "rank": 4,
-    "product_id": "BJ01353758",
-    "title": "嘘とセフレと、恋愛事情2 〜青山壮輔の場合〜【特典音声付】 [カナリアレコード]",
-    "circle": "カナリアレコード",
-    "cv": "テトラポット登",
-    "release_date": "2024-05-24",
-    "price": "1,650円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01354000/BJ01353758_img_main_240x240.jpg",
-    "genres": [],
-    "is_sale": true,
-    "is_exclusive": true,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01353758.html"
-  },
-  {
-    "rank": 5,
-    "product_id": "BJ01626251",
-    "title": "嘘とセフレと、恋愛事情3 〜赤石雄虎の場合〜【特典音声付】 [カナリアレコード]",
-    "circle": "カナリアレコード",
-    "cv": "土門熱",
-    "release_date": "2024-12-27",
-    "price": "1,650円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01627000/BJ01626251_img_main_240x240.jpg",
-    "genres": [],
-    "is_sale": true,
-    "is_exclusive": true,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01626251.html"
   },
   {
     "rank": 6,
@@ -114,7 +114,7 @@
     "circle": "カナリアレコード",
     "cv": "後藤寝床",
     "release_date": "2024-12-13",
-    "price": "1,100円",
+    "price": "2,750円",
     "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01627000/BJ01626250_img_main_240x240.jpg",
     "genres": [
       "日常/生活"
@@ -176,22 +176,41 @@
   },
   {
     "rank": 11,
-    "product_id": "BJ02195144",
-    "title": "『月の檻に囚われて～執着と愛欲の檻に捕らわれる～』 [宵闇の箱庭]",
-    "circle": "宵闇の箱庭",
-    "cv": "猿飛総司",
-    "release_date": "2025-10-10",
-    "price": "1,980円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02196000/BJ02195144_img_main_240x240.jpg",
+    "product_id": "BJ02611969",
+    "title": "先生、痛くしないでOmnibusStory　源慧史～おはようからおやすみまで～【がるまに限定特典付き】 [Honey Mellow]",
+    "circle": "Honey Mellow",
+    "cv": "茶介",
+    "release_date": "2026-06-26",
+    "price": "2,860円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02612000/BJ02611969_img_main_240x240.jpg",
     "genres": [
-      "純愛"
+      "シリーズもの",
+      "バイノーラル/ダミヘ",
+      "先輩/後輩",
+      "年上",
+      "医者",
+      "オフィス/職場"
     ],
     "is_sale": true,
-    "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02195144.html"
+    "is_exclusive": true,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02611969.html"
   },
   {
     "rank": 12,
+    "product_id": "BJ02057471",
+    "title": "外道彼氏 第2弾 ～騙愛（だましあい）～ [Bitter Princess Labal]",
+    "circle": "Bitter Princess Labal",
+    "cv": "彩和矢",
+    "release_date": "2025-06-30",
+    "price": "2,970円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02058000/BJ02057471_img_main_240x240.jpg",
+    "genres": [],
+    "is_sale": true,
+    "is_exclusive": true,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02057471.html"
+  },
+  {
+    "rank": 13,
     "product_id": "BJ02507697",
     "title": "〈共通特典付き〉【絶倫×耐久×ライバル同僚】Ｗｈｉｃｈ？《出演：冬ノ熊肉》 [Cranberry]",
     "circle": "Cranberry",
@@ -212,26 +231,25 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02507697.html"
   },
   {
-    "rank": 13,
-    "product_id": "BJ01996476",
-    "title": "『彼はもう――』 [宵闇の箱庭]",
-    "circle": "宵闇の箱庭",
-    "cv": "フェザー龍",
-    "release_date": "2025-05-30",
-    "price": "1,980円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01997000/BJ01996476_img_main_240x240.jpg",
+    "rank": 14,
+    "product_id": "BJ02616024",
+    "title": "今夜も眠らNight -BIRTHDAY NIGHT 2025- 木崎敦 [安眠朗読]",
+    "circle": "安眠朗読",
+    "cv": "坂田将吾",
+    "release_date": "2026-06-21",
+    "price": "880円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02617000/BJ02616024_img_main_240x240.jpg",
     "genres": [
-      "人外",
-      "オカルト",
-      "ホラー",
-      "触手"
+      "純愛",
+      "日常/生活",
+      "ラブラブ/あまあま"
     ],
     "is_sale": true,
     "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01996476.html"
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02616024.html"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "product_id": "BJ02498674",
     "title": "【特典ミニドラマ付】それはささやかな恋のはじまり 綿矢翔真（cv彩和矢） [アプリコット]",
     "circle": "アプリコット",
@@ -248,7 +266,24 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02498674.html"
   },
   {
-    "rank": 14,
+    "rank": 16,
+    "product_id": "BJ234221",
+    "title": "Immorality-Prison～淫楽調教監獄～　調教看守 瀬名恭也～Cool＆Sadistic～ [entremets]",
+    "circle": "entremets",
+    "cv": "土門熱",
+    "release_date": "2020-03-19",
+    "price": "1,265円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ235000/BJ234221_img_main_240x240.jpg",
+    "genres": [
+      "俺様",
+      "しつけ"
+    ],
+    "is_sale": true,
+    "is_exclusive": false,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ234221.html"
+  },
+  {
+    "rank": 16,
     "product_id": "BJ330447",
     "title": "【配信限定】溺愛ウィークエンド 須賀望 全4話＋特典トラック「ひとりエッチを見られて……」セット [バニラレシピ]",
     "circle": "バニラレシピ",
@@ -269,7 +304,40 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ330447.html"
   },
   {
-    "rank": 16,
+    "rank": 18,
+    "product_id": "BJ495253",
+    "title": "めおとらいふ2 [カナリアレコード]",
+    "circle": "カナリアレコード",
+    "cv": "二枚貝ほっき",
+    "release_date": "2022-02-22",
+    "price": "1,265円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ496000/BJ495253_img_main_240x240.jpg",
+    "genres": [
+      "恋人同士",
+      "ラブラブ/あまあま"
+    ],
+    "is_sale": true,
+    "is_exclusive": false,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ495253.html"
+  },
+  {
+    "rank": 19,
+    "product_id": "BJ02195144",
+    "title": "『月の檻に囚われて～執着と愛欲の檻に捕らわれる～』 [宵闇の箱庭]",
+    "circle": "宵闇の箱庭",
+    "cv": "猿飛総司",
+    "release_date": "2025-10-10",
+    "price": "1,980円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02196000/BJ02195144_img_main_240x240.jpg",
+    "genres": [
+      "純愛"
+    ],
+    "is_sale": true,
+    "is_exclusive": false,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02195144.html"
+  },
+  {
+    "rank": 20,
     "product_id": "BJ02519732",
     "title": "深夜残業シリーズ OMNIBUS STORY『藤木礼央　～おはようからおやすみまで～』【がるまに限定特典付き】 [Queen Lily]",
     "circle": "Queen Lily",
@@ -288,78 +356,5 @@
     "is_sale": true,
     "is_exclusive": true,
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02519732.html"
-  },
-  {
-    "rank": 16,
-    "product_id": "BJ02616024",
-    "title": "今夜も眠らNight -BIRTHDAY NIGHT 2025- 木崎敦 [安眠朗読]",
-    "circle": "安眠朗読",
-    "cv": "坂田将吾",
-    "release_date": "2026-06-21",
-    "price": "880円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02617000/BJ02616024_img_main_240x240.jpg",
-    "genres": [
-      "純愛",
-      "日常/生活",
-      "ラブラブ/あまあま"
-    ],
-    "is_sale": true,
-    "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02616024.html"
-  },
-  {
-    "rank": 18,
-    "product_id": "BJ234221",
-    "title": "Immorality-Prison～淫楽調教監獄～　調教看守 瀬名恭也～Cool＆Sadistic～ [entremets]",
-    "circle": "entremets",
-    "cv": "土門熱",
-    "release_date": "2020-03-19",
-    "price": "1,265円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ235000/BJ234221_img_main_240x240.jpg",
-    "genres": [
-      "俺様",
-      "しつけ"
-    ],
-    "is_sale": true,
-    "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ234221.html"
-  },
-  {
-    "rank": 18,
-    "product_id": "BJ248653",
-    "title": "Gastronomie ～ご主人様とメイドの美食倶楽部～第参巻 大河原弓彦主催（CV：茶介） [ニノヤ]",
-    "circle": "ニノヤ",
-    "cv": "茶介",
-    "release_date": "2020-08-05",
-    "price": "1,540円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ249000/BJ248653_img_main_240x240.jpg",
-    "genres": [
-      "連続絶頂",
-      "メイド",
-      "耽美",
-      "ラブラブ/あまあま",
-      "料理/グルメ",
-      "淫乱"
-    ],
-    "is_sale": true,
-    "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ248653.html"
-  },
-  {
-    "rank": 20,
-    "product_id": "BJ495253",
-    "title": "めおとらいふ2 [カナリアレコード]",
-    "circle": "カナリアレコード",
-    "cv": "二枚貝ほっき",
-    "release_date": "2022-02-22",
-    "price": "1,265円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ496000/BJ495253_img_main_240x240.jpg",
-    "genres": [
-      "恋人同士",
-      "ラブラブ/あまあま"
-    ],
-    "is_sale": true,
-    "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ495253.html"
   }
 ]
