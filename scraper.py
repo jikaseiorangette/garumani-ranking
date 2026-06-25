@@ -3,6 +3,7 @@
 
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
+import csv as csv_module
 import json
 import math
 import re
@@ -198,6 +199,14 @@ def save_work_meta(work_meta):
     DATA_DIR.mkdir(exist_ok=True)
     path = DATA_DIR / "work_meta.json"
     path.write_text(json.dumps(work_meta, ensure_ascii=False, indent=2), encoding="utf-8")
+
+def get_all_works_count():
+    """all_works.csv の総件数を返す。なければwork_metaの件数を返す"""
+    path = DATA_DIR / "all_works.csv"
+    if not path.exists():
+        return 0
+    with path.open(encoding="utf-8-sig") as f:
+        return sum(1 for _ in csv_module.DictReader(f))
 
 def load_history():
     path = DATA_DIR / "history.json"
@@ -712,7 +721,7 @@ def run():
     (DOCS_DATA_DIR / "graph.json").write_text(graph_json, encoding="utf-8")
 
     # 統計
-    total_works = len(work_meta)
+    total_works = get_all_works_count()
     new_today = sum(1 for w in works if work_meta.get(w["product_id"], {}).get("release_date") == today)
     new_work_ids = [w["product_id"] for w in works if work_meta.get(w["product_id"], {}).get("release_date") == today]
 
