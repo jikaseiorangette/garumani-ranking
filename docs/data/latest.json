@@ -56,7 +56,7 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01353758.html"
   },
   {
-    "rank": 4,
+    "rank": 3,
     "product_id": "BJ01626251",
     "title": "嘘とセフレと、恋愛事情3 〜赤石雄虎の場合〜【特典音声付】 [カナリアレコード]",
     "circle": "カナリアレコード",
@@ -70,7 +70,7 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01626251.html"
   },
   {
-    "rank": 5,
+    "rank": 3,
     "product_id": "BJ02611969",
     "title": "先生、痛くしないでOmnibusStory　源慧史～おはようからおやすみまで～【がるまに限定特典付き】 [Honey Mellow]",
     "circle": "Honey Mellow",
@@ -92,22 +92,6 @@
   },
   {
     "rank": 6,
-    "product_id": "BJ01132034",
-    "title": "嘘とセフレと、恋愛事情 〜浅黄凌太の場合〜【特典音声付】 [カナリアレコード]",
-    "circle": "カナリアレコード",
-    "cv": "猿飛総司",
-    "release_date": "2023-08-25",
-    "price": "2,750円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01133000/BJ01132034_img_main_240x240.jpg",
-    "genres": [
-      "青年"
-    ],
-    "is_sale": true,
-    "is_exclusive": true,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01132034.html"
-  },
-  {
-    "rank": 6,
     "product_id": "BJ510214",
     "title": "外道彼氏 ～彼岸の夢～ 凶愛 [Bitter Princess Labal]",
     "circle": "Bitter Princess Labal",
@@ -119,6 +103,20 @@
     "is_sale": true,
     "is_exclusive": true,
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ510214.html"
+  },
+  {
+    "rank": 7,
+    "product_id": "BJ02057471",
+    "title": "外道彼氏 第2弾 ～騙愛（だましあい）～ [Bitter Princess Labal]",
+    "circle": "Bitter Princess Labal",
+    "cv": "彩和矢",
+    "release_date": "2025-06-30",
+    "price": "2,970円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02058000/BJ02057471_img_main_240x240.jpg",
+    "genres": [],
+    "is_sale": true,
+    "is_exclusive": true,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02057471.html"
   },
   {
     "rank": 8,
@@ -143,17 +141,19 @@
   },
   {
     "rank": 9,
-    "product_id": "BJ02057471",
-    "title": "外道彼氏 第2弾 ～騙愛（だましあい）～ [Bitter Princess Labal]",
-    "circle": "Bitter Princess Labal",
-    "cv": "彩和矢",
-    "release_date": "2025-06-30",
-    "price": "2,970円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02058000/BJ02057471_img_main_240x240.jpg",
-    "genres": [],
+    "product_id": "BJ01132034",
+    "title": "嘘とセフレと、恋愛事情 〜浅黄凌太の場合〜【特典音声付】 [カナリアレコード]",
+    "circle": "カナリアレコード",
+    "cv": "猿飛総司",
+    "release_date": "2023-08-25",
+    "price": "2,750円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01133000/BJ01132034_img_main_240x240.jpg",
+    "genres": [
+      "青年"
+    ],
     "is_sale": true,
     "is_exclusive": true,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02057471.html"
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01132034.html"
   },
   {
     "rank": 10,
@@ -173,6 +173,23 @@
     "is_sale": true,
     "is_exclusive": true,
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02455128.html"
+  },
+  {
+    "rank": 11,
+    "product_id": "BJ01232776",
+    "title": "ギャップ日和　case1 一路仁 [GIRLSMANIAX]",
+    "circle": "GIRLSMANIAX",
+    "cv": "小林千晃",
+    "release_date": "2024-02-13",
+    "price": "880円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01233000/BJ01232776_img_main_240x240.jpg",
+    "genres": [
+      "日常/生活",
+      "ほのぼの"
+    ],
+    "is_sale": true,
+    "is_exclusive": true,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01232776.html"
   },
   {
     "rank": 11,
@@ -196,57 +213,7 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02507697.html"
   },
   {
-    "rank": 12,
-    "product_id": "BJ01232776",
-    "title": "ギャップ日和　case1 一路仁 [GIRLSMANIAX]",
-    "circle": "GIRLSMANIAX",
-    "cv": "小林千晃",
-    "release_date": "2024-02-13",
-    "price": "880円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01233000/BJ01232776_img_main_240x240.jpg",
-    "genres": [
-      "日常/生活",
-      "ほのぼの"
-    ],
-    "is_sale": true,
-    "is_exclusive": true,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01232776.html"
-  },
-  {
-    "rank": 12,
-    "product_id": "BJ495252",
-    "title": "めおとらいふ [カナリアレコード]",
-    "circle": "カナリアレコード",
-    "cv": "冬ノ熊肉",
-    "release_date": "2022-02-22",
-    "price": "2,530円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ496000/BJ495252_img_main_240x240.jpg",
-    "genres": [
-      "恋人同士",
-      "ラブラブ/あまあま"
-    ],
-    "is_sale": true,
-    "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ495252.html"
-  },
-  {
-    "rank": 14,
-    "product_id": "BJ01626250",
-    "title": "【配信限定】扉の向こうは、甘くて、苦い。【がるまに特典付】 [カナリアレコード]",
-    "circle": "カナリアレコード",
-    "cv": "後藤寝床",
-    "release_date": "2024-12-13",
-    "price": "2,750円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01627000/BJ01626250_img_main_240x240.jpg",
-    "genres": [
-      "日常/生活"
-    ],
-    "is_sale": true,
-    "is_exclusive": true,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01626250.html"
-  },
-  {
-    "rank": 14,
+    "rank": 13,
     "product_id": "BJ02498674",
     "title": "【特典ミニドラマ付】それはささやかな恋のはじまり 綿矢翔真（cv彩和矢） [アプリコット]",
     "circle": "アプリコット",
@@ -263,7 +230,7 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02498674.html"
   },
   {
-    "rank": 16,
+    "rank": 14,
     "product_id": "BJ330447",
     "title": "【配信限定】溺愛ウィークエンド 須賀望 全4話＋特典トラック「ひとりエッチを見られて……」セット [バニラレシピ]",
     "circle": "バニラレシピ",
@@ -284,41 +251,40 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ330447.html"
   },
   {
-    "rank": 17,
-    "product_id": "BJ325430",
-    "title": "ダメな彼ほどカワイイ! vol.2 [カナリアレコード]",
+    "rank": 15,
+    "product_id": "BJ495252",
+    "title": "めおとらいふ [カナリアレコード]",
     "circle": "カナリアレコード",
-    "cv": "切木Lee",
-    "release_date": "2021-09-24",
+    "cv": "冬ノ熊肉",
+    "release_date": "2022-02-22",
     "price": "2,530円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ326000/BJ325430_img_main_240x240.jpg",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ496000/BJ495252_img_main_240x240.jpg",
     "genres": [
-      "サラリーマン",
-      "上司",
+      "恋人同士",
       "ラブラブ/あまあま"
     ],
     "is_sale": true,
     "is_exclusive": false,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ325430.html"
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ495252.html"
   },
   {
-    "rank": 18,
-    "product_id": "BJ192894",
-    "title": "堕落の国のアリス Alice with Caterpillar ～芋虫とキメセク～ [Bitter Princess Labal]",
-    "circle": "Bitter Princess Labal",
-    "cv": "黒井勇",
-    "release_date": "2019-04-26",
-    "price": "2,200円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ193000/BJ192894_img_main_240x240.jpg",
+    "rank": 15,
+    "product_id": "BJ643496",
+    "title": "TELL ME WHY?【特典音声付】 [カナリアレコード]",
+    "circle": "カナリアレコード",
+    "cv": "猿飛総司",
+    "release_date": "2022-11-25",
+    "price": "2,750円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ644000/BJ643496_img_main_240x240.jpg",
     "genres": [
-      "ファンタジー"
+      "警察/刑事"
     ],
     "is_sale": true,
     "is_exclusive": true,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ192894.html"
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ643496.html"
   },
   {
-    "rank": 19,
+    "rank": 17,
     "product_id": "BJ195532",
     "title": "堕落の国のアリス Alice with MockTurtle ～海亀もどきと虐セク～ [Bitter Princess Labal]",
     "circle": "Bitter Princess Labal",
@@ -334,20 +300,62 @@
     "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ195532.html"
   },
   {
-    "rank": 20,
-    "product_id": "BJ01232778",
-    "title": "ギャップ日和　case3 眞田りつき [GIRLSMANIAX]",
+    "rank": 18,
+    "product_id": "BJ01232777",
+    "title": "ギャップ日和　case2 花山院薫 [GIRLSMANIAX]",
     "circle": "GIRLSMANIAX",
-    "cv": "今井文也",
+    "cv": "土岐隼一",
     "release_date": "2024-02-13",
     "price": "880円",
-    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01233000/BJ01232778_img_main_240x240.jpg",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ01233000/BJ01232777_img_main_240x240.jpg",
     "genres": [
       "日常/生活",
       "ほのぼの"
     ],
     "is_sale": true,
     "is_exclusive": true,
-    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01232778.html"
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ01232777.html"
+  },
+  {
+    "rank": 18,
+    "product_id": "BJ02370849",
+    "title": "〈共通特典付き〉【溺愛夫との至高のポリネシアンセックス】５days《出演：土門熱》 [Cranberry]",
+    "circle": "Cranberry",
+    "cv": "土門熱",
+    "release_date": "2026-02-26",
+    "price": "2,970円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02371000/BJ02370849_img_main_240x240.jpg",
+    "genres": [
+      "バイノーラル/ダミヘ",
+      "連続絶頂",
+      "おもちゃ",
+      "ラブラブ/あまあま",
+      "クンニ",
+      "ささやき"
+    ],
+    "is_sale": true,
+    "is_exclusive": false,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02370849.html"
+  },
+  {
+    "rank": 18,
+    "product_id": "BJ02507699",
+    "title": "〈共通特典付き〉【巨根×独占欲×優しい先輩】Ｗｈｉｃｈ？《出演：五日天峰》 [Cranberry]",
+    "circle": "Cranberry",
+    "cv": "五日天峰",
+    "release_date": "2026-05-28",
+    "price": "2,970円",
+    "thumb_url": "https://img.dlsite.jp/resize/images2/work/books/BJ02508000/BJ02507699_img_main_240x240.jpg",
+    "genres": [
+      "連続絶頂",
+      "オフィス/職場",
+      "ラブラブ/あまあま",
+      "クンニ",
+      "口内射精",
+      "ささやき"
+    ],
+    "is_sale": true,
+    "is_exclusive": false,
+    "work_url": "https://www.dlsite.com/girls-drama/work/=/product_id/BJ02507699.html"
   }
 ]
